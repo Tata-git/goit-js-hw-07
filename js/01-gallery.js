@@ -31,13 +31,10 @@ function openGallery(event) {
     );
 
     instanceModal.show();
-    instanceModal.show(() => console.log("lightbox now visible"));
-    // instance.close(() => console.log("lightbox not visible anymore"));
   }
 }
 function handleClosePopup(e) {
   if (e.code === "Escape") {
-    console.log("Escape");
     instanceModal.close();
   }
 }
